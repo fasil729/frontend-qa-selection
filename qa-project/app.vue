@@ -1,14 +1,13 @@
 <template>
-  <div class="flex justify-center bg-black w-full h-full p-3">
-    <index />
+  <div class="flex justify-center bg-[#161616] bl w-full h-full p-3">
+    <NuxtPage />
   </div>
 </template>
 
 <script>
-import index from "./pages/login/index.vue";
+import index from "./pages/index.vue";
 export default {
+  name: "App",
   components: { index },
-  css: ["@/assets/css/tailwind.css"],
-  // other configurations...
 };
 </script>
