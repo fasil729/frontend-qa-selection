@@ -1,0 +1,50 @@
+name: Cypress E2E & Storybook Visual Regression
+
+on:
+  pull_request:
+    branches:
+      - "**"
+
+jobs:
+  visual_and_e2e_tests:
+    name: Cypress E2E + Storybook Visual Regression
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Install Dependencies
+        working-directory: ./qa-project
+        run: npm install
+
+      - name: Build Storybook
+        working-directory: ./qa-project
+        run: npm run build-storybook
+
+      - name: Run Chromatic for Storybook Visual Regression
+        working-directory: ./qa-project
+        run: npx chromatic --project-token=chpt_69ce0526c4466c9
+
+      - name: Start Application Server
+        working-directory: ./qa-project
+        run: npm run dev &
+        env:
+          PORT: 3000
+
+      - name: Wait for Application to be Ready
+        run: |
+          while ! nc -z localhost 3000; do sleep 1; done
+
+      - name: Run Cypress E2E with Chromatic Visual Regression
+        working-directory: ./qa-project
+        run: |
+          ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 npx cypress run
+          npx chromatic --cypress --project-token=chpt_c738872a69ab521
