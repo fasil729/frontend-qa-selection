@@ -1,0 +1,1 @@
+import{d as t,o,c as r,a as n}from"./Bp0l9591.js";const s={class:"relative z-10 flex items-center justify-center gap-2 group-hover:text-black text-white"},i=t({__name:"Button",props:{onClick:{type:Function,required:!0}},setup(a){return(e,c)=>(o(),r("button",s,[n(e.$slots,"default")]))}});export{i as _};

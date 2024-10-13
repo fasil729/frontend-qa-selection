@@ -1,0 +1,1 @@
+import{o as e,c as s,t as a,n as r}from"./Bp0l9591.js";const l={__name:"Header",props:{text:{type:String,required:!0},customClass:{type:String,default:"text-6xl font-bold opacity-90"}},setup(t){return(o,c)=>(e(),s("h1",{class:r(t.customClass)},a(t.text),3))}};export{l as _};

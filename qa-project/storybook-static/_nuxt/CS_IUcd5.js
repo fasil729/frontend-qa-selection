@@ -1,0 +1,1 @@
+import{c as a,j as e,o}from"./Bp0l9591.js";import{_ as r}from"./B5-gTChS.js";import{_ as s}from"./C5iYK7m3.js";const c={class:"flex flex-col items-center gap-3 m-8"},f={__name:"SocialTransition",setup(t){return(_,n)=>(o(),a("div",c,[e(r,{"icon-class":"fa-regular fa-arrow-right text-xl"}),e(s,{src:"envelope.svg"})]))}};export{f as _};

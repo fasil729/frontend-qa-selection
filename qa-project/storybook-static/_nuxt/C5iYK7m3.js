@@ -1,0 +1,1 @@
+import{o as e,c as s,n as a}from"./Bp0l9591.js";const r=["src","alt"],o={__name:"Image",props:{src:{type:String,required:!0},alt:{type:String,default:""},customClass:{type:String,default:""}},setup(t){return(c,l)=>(e(),s("img",{src:t.src,alt:t.alt,class:a(t.customClass)},null,10,r))}};export{o as _};

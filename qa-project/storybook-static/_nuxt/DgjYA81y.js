@@ -1,0 +1,1 @@
+import{o as e,c as r,t as s,n}from"./Bp0l9591.js";const a=["href"],l={__name:"Anchor",props:{url:{type:String,required:!0},text:{type:String,required:!0},customClass:{type:String,default:"inline-block cursor-pointer rounded-md bg-black px-4 py-3 text-white"}},setup(t){return(o,c)=>(e(),r("a",{href:t.url,class:n(t.customClass)},s(t.text),11,a))}};export{l as _};

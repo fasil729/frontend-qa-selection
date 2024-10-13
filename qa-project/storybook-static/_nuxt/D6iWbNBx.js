@@ -1,0 +1,1 @@
+import{o as e,c as r,t as s,n as a}from"./Bp0l9591.js";const l={__name:"Text",props:{text:{type:String,required:!0},ContentText:{type:String,required:!0},customClass:{type:String,default:"text-xl"}},setup(t){return(n,o)=>(e(),r("p",{class:a(t.customClass)},s(t.text),3))}};export{l as _};

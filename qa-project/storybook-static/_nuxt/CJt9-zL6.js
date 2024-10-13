@@ -1,0 +1,1 @@
+import{o as s,c as t,n as a}from"./Bp0l9591.js";const o={__name:"RectElement",props:{customClass:{type:String,default:"h-80 flex-1 rounded bg-black"}},setup(e){return(c,l)=>(s(),t("div",{class:a(e.customClass)},null,2))}};export{o as _};

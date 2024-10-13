@@ -1,0 +1,1 @@
+import{o as e,c as a,n as t}from"./Bp0l9591.js";const l={__name:"Icon",props:{iconClass:{type:String,required:!0},customClass:{type:String,default:""}},setup(s){return(c,n)=>(e(),a("i",{class:t(["fa-solid",s.iconClass,s.customClass])},null,2))}};export{l as _};

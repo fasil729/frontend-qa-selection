@@ -1,0 +1,1 @@
+import{o as e,c as o,n as s}from"./Bp0l9591.js";const c={__name:"DecorativeLine",props:{customClass:{type:String,default:"bg-gradient-to-l from-white/0 to-white absolute bottom-0 left-0 right-0 h-[1px] w-full"}},setup(t){return(a,l)=>(e(),o("div",{class:s(t.customClass)},null,2))}};export{c as _};
