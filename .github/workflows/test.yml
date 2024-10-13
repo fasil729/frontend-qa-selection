@@ -21,21 +21,25 @@ jobs:
         with:
           node-version: "18"
 
+      # Install pnpm
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install Dependencies
         working-directory: ./qa-project
-        run: npm install --legacy-peer-deps  # Add this flag if the conflict persists
+        run: pnpm install --legacy-peer-deps  # Use pnpm instead of npm
 
       - name: Build Storybook
         working-directory: ./qa-project
-        run: npm run build-storybook
+        run: pnpm run build-storybook
 
       - name: Run Chromatic for Storybook Visual Regression
         working-directory: ./qa-project
-        run: npx chromatic --project-token=chpt_4068dd03d415dc1
+        run: npx chromatic --project-token=chpt_69ce0526c4466c9
 
       - name: Start Application Server
         working-directory: ./qa-project
-        run: npm run dev &
+        run: pnpm run dev &
         env:
           PORT: 3000
 
@@ -46,5 +50,5 @@ jobs:
       - name: Run Cypress E2E with Chromatic Visual Regression
         working-directory: ./qa-project
         run: |
-          ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 npx cypress run
+          ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 pnpm run cypress:run
           npx chromatic --cypress --project-token=chpt_c738872a69ab521
