@@ -23,7 +23,7 @@ jobs:
 
       - name: Install Dependencies
         working-directory: ./qa-project
-        run: npm install --legacy-peer-deps
+        run: npm install --legacy-peer-deps  # Add this flag if the conflict persists
 
       - name: Build Storybook
         working-directory: ./qa-project
@@ -43,4 +43,8 @@ jobs:
         run: |
           while ! nc -z localhost 3000; do sleep 1; done
 
-      - name: Run Cypress E2E with
+      - name: Run Cypress E2E with Chromatic Visual Regression
+        working-directory: ./qa-project
+        run: |
+          ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 npx cypress run
+          npx chromatic --cypress --project-token=chpt_c738872a69ab521
