@@ -1,7 +1,7 @@
 <script setup lang="js">
 import Image from "../atoms/Image.vue";
 import Text from "../atoms/Text.vue";
-const imgSrc = "../../image.png";
+const imgSrc = "https://develop.aladia.io/_nuxt/image.ChQ3biW9.png";
 </script>
 
 <template>

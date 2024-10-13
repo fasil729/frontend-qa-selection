@@ -2,19 +2,25 @@
   <div>
     <div class="mb-8 flex w-full flex-col gap-4">
       <SocialButton
-        iconSrc="../../google.png"
+        id="googlepage"
+        iconSrc="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
         altText="Google Icon"
         buttonText="Continue with Google"
+        @click="handleSocialLogin('google')"
       />
       <SocialButton
-        iconSrc="../../facebook.png"
+        id="facebookpage"
+        iconSrc="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"
         altText="Facebook Icon"
         buttonText="Continue with Facebook"
+        @click="handleSocialLogin('facebook')"
       />
       <SocialButton
-        iconSrc="../../appl.png"
+        id="applepage"
+        iconSrc="https://upload.wikimedia.org/wikipedia/commons/archive/3/31/20201228132320%21Apple_logo_white.svg"
         altText="Apple Icon"
         buttonText="Continue with Apple"
+        @click="handleSocialLogin('apple')"
       />
     </div>
     <Text
@@ -27,4 +33,10 @@
 <script setup>
 import Text from "../atoms/Text.vue";
 import SocialButton from "../molecules/SocialButton.vue";
+import { store } from "~/store/store"; // Import the store for access
+
+// Handle social login click event
+const handleSocialLogin = (provider) => {
+  store.socialLogin(provider);
+};
 </script>

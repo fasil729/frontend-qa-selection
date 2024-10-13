@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-1 items-center justify-between gap-6">
+  <div class="flex flex-1 items-center justify-around gap-6">
     <Image
       custom-class="h-20 w-20 object-cover"
       src="https://develop.aladia.io/_nuxt/image.ChQ3biW9.png"

@@ -1,8 +1,11 @@
 <template>
   <InfoBaner
-    img-src="google.png"
+    img-src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
     title="Add new password"
-    content-text="Your account uses Google sign-in add a new password"
+    content-text="Your account uses
+Google sign-in add a new 
+password"
+custom-class="border border-red-700"
   />
 </template>
 

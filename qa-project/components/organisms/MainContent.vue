@@ -6,20 +6,13 @@
     <div class="relative h-[36rem] overflow-hidden">
       <div class="z-1 relative flex items-center px-10 pt-40 text-white">
         <div class="mr-10 flex-1">
-          <!-- Header Atom -->
           <Header text="E-learning Revolution 2" />
-
-          <!-- Description Text Atom -->
           <Text
             text="We have worked to digitize our school, and give the whole world the opportunity to do it with a new study platform designed for teachers"
             customClass="mb-5 text-xl"
           />
-
-          <!-- Anchor (Button) Atom -->
           <Anchor url="/courses" text="Go to Marketplace" />
         </div>
-
-        <!-- Rect Element Atom -->
         <RectElement />
       </div>
     </div>

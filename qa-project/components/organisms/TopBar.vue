@@ -16,11 +16,27 @@
         <SearchBar />
       </div>
     </div>
-    <ButtonWithIcon iconClass="fa-user-plus" text="Join Us" />
+    <ButtonWithIcon
+      v-if="!store.isUserLoggedIn"
+      iconClass="fa-user-plus"
+      text="Join Us"
+      @pointerup="store.togglePopUp"
+    />
+    <ButtonWithIcon
+      v-if="store.isUserLoggedIn"
+      iconClass="fa-right-from-bracket"
+      text="Logout"
+      @pointerup="logout"
+    />
   </div>
 </template>
 
 <script setup>
+import { store } from "~/store/store";
 import SearchBar from "../molecules/SearchBar.vue";
 import ButtonWithIcon from "../molecules/ButtonWithIcon.vue";
+
+const logout = async () => {
+  store.resetStore();
+};
 </script>
