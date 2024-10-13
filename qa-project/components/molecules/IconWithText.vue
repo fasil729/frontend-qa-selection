@@ -1,4 +1,3 @@
-<!-- components/molecules/IconWithText.vue -->
 <template>
   <div class="flex items-center justify-center gap-2">
     <Icon :width="iconWidth" :height="iconHeight" />

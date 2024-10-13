@@ -1,18 +1,15 @@
 <template>
   <div
-    class="relative flex h-10 w-full items-center justify-center overflow-hidden rounded-md border-white/100 bg-black text-center text-sm pointer-events-none opacity-70 mb-6 border"
+    class="relative flex h-10 w-full items-center justify-center overflow-hidden rounded-md bg-black text-center text-sm cursor-pointer opacity-70 mt-6 mb-6 border border-white/100"
   >
-    <div class="gradient absolute inset-0 opacity-50"></div>
-    <!-- Using the Text atom and passing text as a prop -->
+    <div class="gradient absolute inset-0 opacity-50 text-center"></div>
     <Text :text="text" class="text-white" />
   </div>
 </template>
 
 <script setup>
-// Import the Text atom
 import Text from "~/components/atoms/Text.vue";
 
-// Accept the text as a prop
 const props = defineProps({
   text: {
     type: String,
@@ -23,11 +20,9 @@ const props = defineProps({
 
 <style scoped>
 .gradient {
-  /* Example gradient styling */
-  background: linear-gradient(
-    90deg,
-    rgba(255, 0, 150, 0.3),
-    rgba(0, 150, 255, 0.3)
-  );
+  position: absolute;
+  inset: 0;
+  opacity: 0.5;
+  background: linear-gradient(180deg, #6f6363 0%, rgba(138, 138, 138, 0) 100%);
 }
 </style>

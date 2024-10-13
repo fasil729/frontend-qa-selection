@@ -1,4 +1,3 @@
-<!-- Icon.vue -->
 <template>
   <i :class="['fa-solid', iconClass, customClass]" />
 </template>
@@ -7,12 +6,11 @@
 defineProps({
   iconClass: {
     type: String,
-    required: true
+    required: true,
   },
   customClass: {
     type: String,
-    default: ''
-  }
+    default: "",
+  },
 });
 </script>
-

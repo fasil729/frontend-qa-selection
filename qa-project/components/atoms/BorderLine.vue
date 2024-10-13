@@ -1,4 +1,3 @@
-<!-- BorderLine.vue -->
 <template>
   <div class="border-line"></div>
 </template>

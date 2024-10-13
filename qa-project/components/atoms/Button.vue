@@ -1,4 +1,3 @@
-<!-- components/atoms/Button.vue -->
 <template>
   <button
     class="relative z-10 flex items-center justify-center gap-2 group-hover:text-black text-white"
@@ -17,7 +16,5 @@ const props = defineProps({
 </script>
 
 <style scoped>
-button {
-  /* Add common button styles */
-}
+
 </style>

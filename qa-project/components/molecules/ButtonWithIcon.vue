@@ -1,9 +1,7 @@
-<!-- components/molecules/ButtonWithIcon.vue -->
 <template>
   <Button
     class="relative flex items-center justify-center gap-1.5 pr-4 group shrink-0 cursor-pointer overflow-hidden rounded border px-3 py-2 text-sm leading-none transition-all hover:border-transparent active:scale-95"
   >
-    <!-- Gradient background animation -->
     <div
       class="absolute inset-0 z-0 flex h-full w-full items-center justify-center"
     >
@@ -12,7 +10,6 @@
       ></div>
     </div>
 
-    <!-- Icon and Text Content -->
     <div
       class="relative z-10 flex items-center justify-center gap-2 group-hover:text-black text-white"
     >
@@ -39,12 +36,10 @@ const props = defineProps({
 </script>
 
 <style scoped>
-/* Apply color transitions for hover states */
 .group-hover\:text-black:hover {
   color: black;
 }
 
-/* Gradient background animation */
 .gradient {
   background: linear-gradient(to right, #f97316, #f59e0b);
 }

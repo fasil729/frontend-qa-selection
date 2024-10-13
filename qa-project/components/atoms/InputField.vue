@@ -1,6 +1,7 @@
 <!-- InputField.vue -->
 <template>
   <input
+    :id="id"
     :maxlength="maxlength"
     :autocomplete="autocomplete"
     :placeholder="placeholder"
@@ -11,6 +12,9 @@
 
 <script setup>
 defineProps({
+  id: {
+    type: String,
+  },
   maxlength: {
     type: Number,
     default: 100,

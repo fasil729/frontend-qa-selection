@@ -1,4 +1,3 @@
-<!-- components/molecules/SearchBar.vue -->
 <template>
   <div
     class="relative z-10 flex h-9 w-full items-center gap-2 px-2 text-sm text-[#707070]"
@@ -9,7 +8,7 @@
       <Icon iconClass="fa-magnifying-glass text-xs" />
     </div>
 
-    <!-- Input Field -->
+
     <InputField
       maxlength="100"
       autocomplete="new-password"
@@ -17,14 +16,14 @@
       customClass="h-full w-0 flex-1 bg-transparent text-13 outline-none"
     />
 
-    <!-- Optional close icon -->
+  
     <div
       class="relative z-20 shrink-0 cursor-pointer text-sm text-[#707070] hover:text-[#ffffff]"
     >
       <Icon iconClass="fa-circle-xmark" customClass="hidden" />
     </div>
 
-    <!-- Decorative line at the bottom -->
+    
     <DecorativeLine />
   </div>
 </template>

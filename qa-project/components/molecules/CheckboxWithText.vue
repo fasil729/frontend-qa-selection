@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mb-4 flex items-center gap-2">
+    <div class="mb-4 flex items-center gap-2 text-centers">
       <Input
         @update:checked="isChecked = $event"
         type="checkbox"
