@@ -1,5 +1,5 @@
 /* ==== Test Created with Cypress Studio ==== */
-it("googletest", function () {
+it("appletest", function () {
   /* ==== Generated with Cypress Studio ==== */
   cy.visit("localhost:3000");
 
