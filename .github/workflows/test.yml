@@ -27,7 +27,7 @@ jobs:
 
       - name: Install Dependencies
         working-directory: ./qa-project
-        run: pnpm install --legacy-peer-deps  # Use pnpm instead of npm
+        run: pnpm install
 
       - name: Build Storybook
         working-directory: ./qa-project
