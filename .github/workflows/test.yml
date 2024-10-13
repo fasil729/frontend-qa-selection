@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Chromatic for Storybook Visual Regression
         working-directory: ./qa-project
-        run: npx chromatic --project-token=chpt_69ce0526c4466c9
+        run: npx chromatic --project-token=chpt_4068dd03d415dc1
 
       - name: Start Application Server
         working-directory: ./qa-project
