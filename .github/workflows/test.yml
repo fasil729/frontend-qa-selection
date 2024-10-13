@@ -50,5 +50,5 @@ jobs:
       - name: Run Cypress E2E with Chromatic Visual Regression
         working-directory: ./qa-project
         run: |
-          ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 pnpm run cypress run
+          ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 npx cypress run
           npx chromatic --cypress --project-token=chpt_c738872a69ab521
