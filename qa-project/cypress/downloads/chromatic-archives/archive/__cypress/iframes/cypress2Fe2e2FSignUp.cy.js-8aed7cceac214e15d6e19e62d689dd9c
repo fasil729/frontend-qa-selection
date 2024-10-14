@@ -254,7 +254,7 @@
 ({
       browserFamily: 'chromium',
       isSpecBridge: false,
-      key: '225eed71-3fe2-43d5-9d52-6fa0345c829e',
+      key: '2def37e9-34a6-48d1-9200-44a6114ccecf',
       namespace: '__cypress',
       scripts: '["/__cypress/tests?p=cypress/support/e2e.js","/__cypress/tests?p=cypress/e2e/SignUp.cy.js"]',
       url: 'http://localhost:3000/__cypress/iframes/cypress%2Fe2e%2FSignUp.cy.js?browserFamily=chromium'

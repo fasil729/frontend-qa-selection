@@ -254,7 +254,7 @@
 ({
       browserFamily: 'chromium',
       isSpecBridge: false,
-      key: '7e77ea35-f2bf-4699-9a21-7984ad276914',
+      key: '58201511-9dee-4ea2-bb31-031429e8956e',
       namespace: '__cypress',
       scripts: '["/__cypress/tests?p=cypress/support/e2e.js","/__cypress/tests?p=cypress/e2e/LoginRecovery.cy.js"]',
       url: 'http://localhost:3000/__cypress/iframes/cypress%2Fe2e%2FLoginRecovery.cy.js?browserFamily=chromium'

@@ -254,7 +254,7 @@
 ({
       browserFamily: 'chromium',
       isSpecBridge: false,
-      key: 'fd8b0ad2-2f49-4355-98ba-c420243bd14b',
+      key: 'f2474ccd-410a-4c2c-8751-4f7627914bc8',
       namespace: '__cypress',
       scripts: '["/__cypress/tests?p=cypress/support/e2e.js","/__cypress/tests?p=cypress/e2e/GoogleSocialLogin.cy.js"]',
       url: 'http://localhost:3000/__cypress/iframes/cypress%2Fe2e%2FGoogleSocialLogin.cy.js?browserFamily=chromium'
