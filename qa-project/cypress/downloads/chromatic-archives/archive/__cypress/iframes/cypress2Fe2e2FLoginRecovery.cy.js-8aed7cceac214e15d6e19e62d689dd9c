@@ -254,13 +254,13 @@
 ({
       browserFamily: 'chromium',
       isSpecBridge: false,
-      key: 'aadd84a2-64ac-4a71-a3b1-71394b4f868b',
+      key: '7e77ea35-f2bf-4699-9a21-7984ad276914',
       namespace: '__cypress',
       scripts: '["/__cypress/tests?p=cypress/support/e2e.js","/__cypress/tests?p=cypress/e2e/LoginRecovery.cy.js"]',
       url: 'http://localhost:3000/__cypress/iframes/cypress%2Fe2e%2FLoginRecovery.cy.js?browserFamily=chromium'
     })</script>
     <script>
-      window.Cypress.onSpecWindow(window, [{"absolute":"/home/biniyam/frontend-qa-selection/qa-project/cypress/support/e2e.js","relative":"cypress/support/e2e.js","relativeUrl":"/__cypress/tests?p=cypress/support/e2e.js"},{"absolute":"/home/biniyam/frontend-qa-selection/qa-project/cypress/e2e/LoginRecovery.cy.js","relative":"cypress/e2e/LoginRecovery.cy.js","relativeUrl":"/__cypress/tests?p=cypress/e2e/LoginRecovery.cy.js"}]);
+      window.Cypress.onSpecWindow(window, [{"absolute":"/home/biniyam/aladia/frontend-qa-selection/qa-project/cypress/support/e2e.js","relative":"cypress/support/e2e.js","relativeUrl":"/__cypress/tests?p=cypress/support/e2e.js"},{"absolute":"/home/biniyam/aladia/frontend-qa-selection/qa-project/cypress/e2e/LoginRecovery.cy.js","relative":"cypress/e2e/LoginRecovery.cy.js","relativeUrl":"/__cypress/tests?p=cypress/e2e/LoginRecovery.cy.js"}]);
     </script>
   </body>
 </html>

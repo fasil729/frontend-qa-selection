@@ -1,5 +1,5 @@
 import { createHotContext as __vite__createHotContext } from "/_nuxt/@vite/client";import.meta.hot = __vite__createHotContext("/components/atoms/Text.vue");/* Injection by vite-plugin-vue-inspector Start */
-import { createElementBlock as __createElementBlock } from "/_nuxt/node_modules/.cache/vite/client/deps/vue.js?v=e13b3add"
+import { createElementBlock as __createElementBlock } from "/_nuxt/node_modules/.cache/vite/client/deps/vue.js?v=165aa77d"
 function _interopVNode(vnode) {
   if (vnode && vnode.props && 'data-v-inspector' in vnode.props) {
     const data = vnode.props['data-v-inspector']
@@ -29,7 +29,7 @@ return __returned__
 }
 
 }
-import { toDisplayString as _toDisplayString, normalizeClass as _normalizeClass, openBlock as _openBlock,  } from "/_nuxt/node_modules/.cache/vite/client/deps/vue.js?v=e13b3add"
+import { toDisplayString as _toDisplayString, normalizeClass as _normalizeClass, openBlock as _openBlock,  } from "/_nuxt/node_modules/.cache/vite/client/deps/vue.js?v=165aa77d"
 
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return (_openBlock(), _createElementBlock("p", {
@@ -51,5 +51,5 @@ import.meta.hot.accept(mod => {
   }
 })
 import _export_sfc from "/_nuxt/@id/__x00__plugin-vue:export-helper"
-export default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__file',"/home/biniyam/frontend-qa-selection/qa-project/components/atoms/Text.vue"]])
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFLQSxLQUFLLENBQUMsS0FBSyxDQUFDLENBQUMsQ0FBQyxPQUlaOzs7Ozs7Ozs7Ozt3QkFSQSxvQkFBdUY7SUFBbkYsS0FBSyxFQURYLGdCQUNhLGtCQUFXO0lBQUUsa0JBQWdCLEVBQUM7c0JBQW1DLFdBQUkiLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VzIjpbIlRleHQudnVlIl0sInNvdXJjZXNDb250ZW50IjpbIjx0ZW1wbGF0ZT5cbiAgPHAgOmNsYXNzPVwiY3VzdG9tQ2xhc3NcIiBkYXRhLXYtaW5zcGVjdG9yPVwiY29tcG9uZW50cy9hdG9tcy9UZXh0LnZ1ZToyOjNcIj57eyB0ZXh0IH19PC9wPlxuPC90ZW1wbGF0ZT5cblxuPHNjcmlwdCBzZXR1cD5cbmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHMoe1xuICB0ZXh0OiB7IHR5cGU6IFN0cmluZywgcmVxdWlyZWQ6IHRydWUgfSxcbiAgQ29udGVudFRleHQ6IHsgdHlwZTogU3RyaW5nLCByZXF1aXJlZDogdHJ1ZSB9LFxuICBjdXN0b21DbGFzczogeyB0eXBlOiBTdHJpbmcsIGRlZmF1bHQ6IFwidGV4dC14bFwiIH0sXG59KTtcbjwvc2NyaXB0PlxuIl0sImZpbGUiOiIvaG9tZS9iaW5peWFtL2Zyb250ZW5kLXFhLXNlbGVjdGlvbi9xYS1wcm9qZWN0L2NvbXBvbmVudHMvYXRvbXMvVGV4dC52dWUifQ==
+export default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__file',"/home/biniyam/aladia/frontend-qa-selection/qa-project/components/atoms/Text.vue"]])
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFLQSxLQUFLLENBQUMsS0FBSyxDQUFDLENBQUMsQ0FBQyxPQUlaOzs7Ozs7Ozs7Ozt3QkFSQSxvQkFBdUY7SUFBbkYsS0FBSyxFQURYLGdCQUNhLGtCQUFXO0lBQUUsa0JBQWdCLEVBQUM7c0JBQW1DLFdBQUkiLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VzIjpbIlRleHQudnVlIl0sInNvdXJjZXNDb250ZW50IjpbIjx0ZW1wbGF0ZT5cbiAgPHAgOmNsYXNzPVwiY3VzdG9tQ2xhc3NcIiBkYXRhLXYtaW5zcGVjdG9yPVwiY29tcG9uZW50cy9hdG9tcy9UZXh0LnZ1ZToyOjNcIj57eyB0ZXh0IH19PC9wPlxuPC90ZW1wbGF0ZT5cblxuPHNjcmlwdCBzZXR1cD5cbmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHMoe1xuICB0ZXh0OiB7IHR5cGU6IFN0cmluZywgcmVxdWlyZWQ6IHRydWUgfSxcbiAgQ29udGVudFRleHQ6IHsgdHlwZTogU3RyaW5nLCByZXF1aXJlZDogdHJ1ZSB9LFxuICBjdXN0b21DbGFzczogeyB0eXBlOiBTdHJpbmcsIGRlZmF1bHQ6IFwidGV4dC14bFwiIH0sXG59KTtcbjwvc2NyaXB0PlxuIl0sImZpbGUiOiIvaG9tZS9iaW5peWFtL2FsYWRpYS9mcm9udGVuZC1xYS1zZWxlY3Rpb24vcWEtcHJvamVjdC9jb21wb25lbnRzL2F0b21zL1RleHQudnVlIn0=

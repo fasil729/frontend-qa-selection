@@ -254,13 +254,13 @@
 ({
       browserFamily: 'chromium',
       isSpecBridge: false,
-      key: '55b66d43-4fdd-4408-ab90-93858ce1c5a9',
+      key: 'fd8b0ad2-2f49-4355-98ba-c420243bd14b',
       namespace: '__cypress',
       scripts: '["/__cypress/tests?p=cypress/support/e2e.js","/__cypress/tests?p=cypress/e2e/GoogleSocialLogin.cy.js"]',
       url: 'http://localhost:3000/__cypress/iframes/cypress%2Fe2e%2FGoogleSocialLogin.cy.js?browserFamily=chromium'
     })</script>
     <script>
-      window.Cypress.onSpecWindow(window, [{"absolute":"/home/biniyam/frontend-qa-selection/qa-project/cypress/support/e2e.js","relative":"cypress/support/e2e.js","relativeUrl":"/__cypress/tests?p=cypress/support/e2e.js"},{"absolute":"/home/biniyam/frontend-qa-selection/qa-project/cypress/e2e/GoogleSocialLogin.cy.js","relative":"cypress/e2e/GoogleSocialLogin.cy.js","relativeUrl":"/__cypress/tests?p=cypress/e2e/GoogleSocialLogin.cy.js"}]);
+      window.Cypress.onSpecWindow(window, [{"absolute":"/home/biniyam/aladia/frontend-qa-selection/qa-project/cypress/support/e2e.js","relative":"cypress/support/e2e.js","relativeUrl":"/__cypress/tests?p=cypress/support/e2e.js"},{"absolute":"/home/biniyam/aladia/frontend-qa-selection/qa-project/cypress/e2e/GoogleSocialLogin.cy.js","relative":"cypress/e2e/GoogleSocialLogin.cy.js","relativeUrl":"/__cypress/tests?p=cypress/e2e/GoogleSocialLogin.cy.js"}]);
     </script>
   </body>
 </html>

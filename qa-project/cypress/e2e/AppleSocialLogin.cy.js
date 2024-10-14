@@ -2,7 +2,7 @@
 it("googletest", function () {
   /* ==== Generated with Cypress Studio ==== */
   cy.visit("localhost:3000");
-  cy.wait(1000);
+
   cy.get(".relative > span").click();
   cy.get(".relative > span").click();
   cy.get("#applepage").click();

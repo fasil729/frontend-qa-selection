@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>cypress/e2e/FacebookSocialLogin.cy.js</title>
+    <title>cypress/e2e/FcebookSocialLogin.cy.js</title>
   </head>
   <body>
     <script>
@@ -254,13 +254,13 @@
 ({
       browserFamily: 'chromium',
       isSpecBridge: false,
-      key: 'f333af82-e488-4260-8df2-1acf7c0b93f0',
+      key: 'b5853458-66ef-48e8-ad4d-1a4a28c3b0ac',
       namespace: '__cypress',
-      scripts: '["/__cypress/tests?p=cypress/support/e2e.js","/__cypress/tests?p=cypress/e2e/FacebookSocialLogin.cy.js"]',
-      url: 'http://localhost:3000/__cypress/iframes/cypress%2Fe2e%2FFacebookSocialLogin.cy.js?browserFamily=chromium'
+      scripts: '["/__cypress/tests?p=cypress/support/e2e.js","/__cypress/tests?p=cypress/e2e/FcebookSocialLogin.cy.js"]',
+      url: 'http://localhost:3000/__cypress/iframes/cypress%2Fe2e%2FFcebookSocialLogin.cy.js?browserFamily=chromium'
     })</script>
     <script>
-      window.Cypress.onSpecWindow(window, [{"absolute":"/home/biniyam/frontend-qa-selection/qa-project/cypress/support/e2e.js","relative":"cypress/support/e2e.js","relativeUrl":"/__cypress/tests?p=cypress/support/e2e.js"},{"absolute":"/home/biniyam/frontend-qa-selection/qa-project/cypress/e2e/FacebookSocialLogin.cy.js","relative":"cypress/e2e/FacebookSocialLogin.cy.js","relativeUrl":"/__cypress/tests?p=cypress/e2e/FacebookSocialLogin.cy.js"}]);
+      window.Cypress.onSpecWindow(window, [{"absolute":"/home/biniyam/aladia/frontend-qa-selection/qa-project/cypress/support/e2e.js","relative":"cypress/support/e2e.js","relativeUrl":"/__cypress/tests?p=cypress/support/e2e.js"},{"absolute":"/home/biniyam/aladia/frontend-qa-selection/qa-project/cypress/e2e/FcebookSocialLogin.cy.js","relative":"cypress/e2e/FcebookSocialLogin.cy.js","relativeUrl":"/__cypress/tests?p=cypress/e2e/FcebookSocialLogin.cy.js"}]);
     </script>
   </body>
 </html>
