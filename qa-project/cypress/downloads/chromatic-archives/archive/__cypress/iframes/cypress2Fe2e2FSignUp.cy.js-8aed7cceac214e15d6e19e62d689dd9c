@@ -254,13 +254,13 @@
 ({
       browserFamily: 'chromium',
       isSpecBridge: false,
-      key: '7aa4f0bc-116a-49ef-b93a-cef46fb493c5',
+      key: '2def37e9-34a6-48d1-9200-44a6114ccecf',
       namespace: '__cypress',
       scripts: '["/__cypress/tests?p=cypress/support/e2e.js","/__cypress/tests?p=cypress/e2e/SignUp.cy.js"]',
       url: 'http://localhost:3000/__cypress/iframes/cypress%2Fe2e%2FSignUp.cy.js?browserFamily=chromium'
     })</script>
     <script>
-      window.Cypress.onSpecWindow(window, [{"absolute":"/home/biniyam/frontend-qa-selection/qa-project/cypress/support/e2e.js","relative":"cypress/support/e2e.js","relativeUrl":"/__cypress/tests?p=cypress/support/e2e.js"},{"absolute":"/home/biniyam/frontend-qa-selection/qa-project/cypress/e2e/SignUp.cy.js","relative":"cypress/e2e/SignUp.cy.js","relativeUrl":"/__cypress/tests?p=cypress/e2e/SignUp.cy.js"}]);
+      window.Cypress.onSpecWindow(window, [{"absolute":"/home/biniyam/aladia/frontend-qa-selection/qa-project/cypress/support/e2e.js","relative":"cypress/support/e2e.js","relativeUrl":"/__cypress/tests?p=cypress/support/e2e.js"},{"absolute":"/home/biniyam/aladia/frontend-qa-selection/qa-project/cypress/e2e/SignUp.cy.js","relative":"cypress/e2e/SignUp.cy.js","relativeUrl":"/__cypress/tests?p=cypress/e2e/SignUp.cy.js"}]);
     </script>
   </body>
 </html>

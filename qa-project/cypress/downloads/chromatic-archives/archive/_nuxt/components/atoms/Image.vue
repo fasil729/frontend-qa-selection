@@ -1,5 +1,5 @@
 import { createHotContext as __vite__createHotContext } from "/_nuxt/@vite/client";import.meta.hot = __vite__createHotContext("/components/atoms/Image.vue");/* Injection by vite-plugin-vue-inspector Start */
-import { createElementBlock as __createElementBlock } from "/_nuxt/node_modules/.cache/vite/client/deps/vue.js?v=e13b3add"
+import { createElementBlock as __createElementBlock } from "/_nuxt/node_modules/.cache/vite/client/deps/vue.js?v=165aa77d"
 function _interopVNode(vnode) {
   if (vnode && vnode.props && 'data-v-inspector' in vnode.props) {
     const data = vnode.props['data-v-inspector']
@@ -38,7 +38,7 @@ return __returned__
 }
 
 }
-import { normalizeClass as _normalizeClass, openBlock as _openBlock,  } from "/_nuxt/node_modules/.cache/vite/client/deps/vue.js?v=e13b3add"
+import { normalizeClass as _normalizeClass, openBlock as _openBlock,  } from "/_nuxt/node_modules/.cache/vite/client/deps/vue.js?v=165aa77d"
 
 const _hoisted_1 = ["src", "alt"]
 
@@ -64,5 +64,5 @@ import.meta.hot.accept(mod => {
   }
 })
 import _export_sfc from "/_nuxt/@id/__x00__plugin-vue:export-helper"
-export default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__file',"/home/biniyam/frontend-qa-selection/qa-project/components/atoms/Image.vue"]])
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFLQSxLQUFLLENBQUMsS0FBSyxDQUFDLENBQUMsQ0FBQyxPQWFaOzs7Ozs7Ozs7O21CQWxCRjs7O3dCQUNFLG9CQUFvRztJQUE5RixHQUFHLEVBQUUsVUFBRztJQUFHLEdBQUcsRUFBRSxVQUFHO0lBQUcsS0FBSyxFQURuQyxnQkFDcUMsa0JBQVc7SUFBRSxrQkFBZ0IsRUFBQztrQ0FEbkUiLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VzIjpbIkltYWdlLnZ1ZSJdLCJzb3VyY2VzQ29udGVudCI6WyI8dGVtcGxhdGU+XG4gIDxpbWcgOnNyYz1cInNyY1wiIDphbHQ9XCJhbHRcIiA6Y2xhc3M9XCJjdXN0b21DbGFzc1wiIGRhdGEtdi1pbnNwZWN0b3I9XCJjb21wb25lbnRzL2F0b21zL0ltYWdlLnZ1ZToyOjNcIiAvPlxuPC90ZW1wbGF0ZT5cblxuPHNjcmlwdCBzZXR1cD5cbmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHMoe1xuICBzcmM6IHtcbiAgICB0eXBlOiBTdHJpbmcsXG4gICAgcmVxdWlyZWQ6IHRydWUsXG4gIH0sXG4gIGFsdDoge1xuICAgIHR5cGU6IFN0cmluZyxcbiAgICBkZWZhdWx0OiBcIlwiLFxuICB9LFxuICBjdXN0b21DbGFzczoge1xuICAgIHR5cGU6IFN0cmluZyxcbiAgICBkZWZhdWx0OiBcIlwiLFxuICB9LFxufSk7XG48L3NjcmlwdD5cbiJdLCJmaWxlIjoiL2hvbWUvYmluaXlhbS9mcm9udGVuZC1xYS1zZWxlY3Rpb24vcWEtcHJvamVjdC9jb21wb25lbnRzL2F0b21zL0ltYWdlLnZ1ZSJ9
+export default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__file',"/home/biniyam/aladia/frontend-qa-selection/qa-project/components/atoms/Image.vue"]])
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFLQSxLQUFLLENBQUMsS0FBSyxDQUFDLENBQUMsQ0FBQyxPQWFaOzs7Ozs7Ozs7O21CQWxCRjs7O3dCQUNFLG9CQUFvRztJQUE5RixHQUFHLEVBQUUsVUFBRztJQUFHLEdBQUcsRUFBRSxVQUFHO0lBQUcsS0FBSyxFQURuQyxnQkFDcUMsa0JBQVc7SUFBRSxrQkFBZ0IsRUFBQztrQ0FEbkUiLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VzIjpbIkltYWdlLnZ1ZSJdLCJzb3VyY2VzQ29udGVudCI6WyI8dGVtcGxhdGU+XG4gIDxpbWcgOnNyYz1cInNyY1wiIDphbHQ9XCJhbHRcIiA6Y2xhc3M9XCJjdXN0b21DbGFzc1wiIGRhdGEtdi1pbnNwZWN0b3I9XCJjb21wb25lbnRzL2F0b21zL0ltYWdlLnZ1ZToyOjNcIiAvPlxuPC90ZW1wbGF0ZT5cblxuPHNjcmlwdCBzZXR1cD5cbmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHMoe1xuICBzcmM6IHtcbiAgICB0eXBlOiBTdHJpbmcsXG4gICAgcmVxdWlyZWQ6IHRydWUsXG4gIH0sXG4gIGFsdDoge1xuICAgIHR5cGU6IFN0cmluZyxcbiAgICBkZWZhdWx0OiBcIlwiLFxuICB9LFxuICBjdXN0b21DbGFzczoge1xuICAgIHR5cGU6IFN0cmluZyxcbiAgICBkZWZhdWx0OiBcIlwiLFxuICB9LFxufSk7XG48L3NjcmlwdD5cbiJdLCJmaWxlIjoiL2hvbWUvYmluaXlhbS9hbGFkaWEvZnJvbnRlbmQtcWEtc2VsZWN0aW9uL3FhLXByb2plY3QvY29tcG9uZW50cy9hdG9tcy9JbWFnZS52dWUifQ==

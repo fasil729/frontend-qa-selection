@@ -29,6 +29,7 @@ it("googletest", function () {
   cy.get(".gradient.absolute.inset-0.opacity-50").trigger("pointerup");
 
   cy.get(".relative > span").click();
+  cy.intercept("/_nuxt/*", { statusCode: 200 }).as("fetchNuxtAssets");
 
   /* ==== End Cypress Studio ==== */
 });
