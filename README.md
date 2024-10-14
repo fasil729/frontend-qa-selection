@@ -3,7 +3,9 @@
 This repository presents a complete implementation of key user authentication flows and landing experiences, built using **Nuxt.js 3**. Below is a concise explanation of the technologies and tools used, along with the design decisions made throughout the project.
 
 ---
-
+## ✅ **Video Demo**
+https://share.vidyard.com/watch/RCwW4yKhSLAVha4TTxf6bg?
+---
 ## ✅ **Implemented Features**
 
 - **Signup/Login**: Supports both registration and login with email and password, handling all essential states, including errors (e.g., invalid credentials, existing accounts).
