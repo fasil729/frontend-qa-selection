@@ -46,4 +46,4 @@ Every flow includes thorough error handling to cover edge cases. For example, th
 
 ## 🎯 **Summary**
 
-The Aladia project combines modern tools and thoughtful design to build a robust and maintainable application. With **Storybook** and **Chromatic** driving component-level testing, **Cypress** ensuring real-world reliability, and a well-organized CI/CD pipeline, the project is built to be scalable and easy to extend. By leveraging **store.js** for state management and focusing on error handling, we created a seamless and predictable user experience across all key flows.
+The Aladia project combines modern tools and thoughtful design to build a robust and maintainable application. With **Storybook** and **Chromatic** driving component-level testing, **Cypress** 
